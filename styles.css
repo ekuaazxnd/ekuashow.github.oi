@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('002.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fixed-text-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.fixed-text-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fixed-text-content {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.draggable-box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    touch-action: none;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    background-image: url('003.png');
+    background-size: 100vw 100vh;
+    background-position: calc(-1 * var(--x, 0)) calc(-1 * var(--y, 0));
+}
+
+.draggable-box:hover {
+    transform: scale(1.02);
+}
+
+.text-area {
+    width: 100%;
+    height: 30px;
+    border: none;
+    resize: none;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    outline: none;
+    cursor: text;
+}
+
+.text-area-top {
+    text-align: left;
+    margin-bottom: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.text-area-bottom {
+    text-align: right;
+    margin-top: auto;
+    line-height: 22px;
+    background-color: transparent;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* 调整大小的手柄样式 */
+.resize-handle {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid #333;
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    cursor: se-resize;
+    z-index: 2;
+} 
