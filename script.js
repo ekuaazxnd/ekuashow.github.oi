@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 定义每个框对应的链接和文本
     const boxes = [
-        { link: 'https://ekuaazxnd.github.io/DISCONTINUOUS-REALITY/', textTop: 'show1', textBottom: 'aaa' },
-        { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '3d scan', textBottom: 'bbb' },
-        { link: 'https://drive.google.com/file/d/12asnNQXuUFSS76uqq-vxx9xwkjmaIPGl/view?usp=sharing', textTop: '02', textBottom: 'ccc' },
-        { link: 'https://ekuaazxnd.github.io/DISCONTINUOUS-REALITY/', textTop: '003', textBottom: 'ddd' },
-        { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '004', textBottom: 'eee' }
+        { link: 'https://ekuaazxnd.github.io/DISCONTINUOUS-REALITY/', textTop: '001', textBottom: ' about the project...' },
+        { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '002', textBottom: 'the scence' },
+        { link: 'https://drive.google.com/file/d/12asnNQXuUFSS76uqq-vxx9xwkjmaIPGl/view?usp=sharing', textTop: '003', textBottom: 'video work' },
+        { link: 'https://ekuaazxnd.github.io/DISCONTINUOUS-REALITY/', textTop: '004', textBottom: 'physical show' },
+        { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '005', textBottom: ' previous work' }
     ];
 
     // 
