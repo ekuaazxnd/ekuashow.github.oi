@@ -8,8 +8,24 @@ document.addEventListener('DOMContentLoaded', function() {
         { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '004', textBottom: 'eee' }
     ];
 
-    // 为每个可拖动的框添加功能
+    // 
     document.querySelectorAll('.draggable-box').forEach((box, index) => {
+        const randomWidth = Math.floor(Math.random() * 150) + 150;
+const randomHeight = Math.floor(Math.random() * 150) + 150;
+
+// 
+const maxLeft = window.innerWidth - randomWidth;
+const maxTop = window.innerHeight - randomHeight;
+const randomLeft = Math.floor(Math.random() * maxLeft);
+const randomTop = Math.floor(Math.random() * maxTop);
+
+box.style.width = `${randomWidth}px`;
+box.style.height = `${randomHeight}px`;
+box.style.left = `${randomLeft}px`;
+box.style.top = `${randomTop}px`;
+box.style.setProperty('--x', `${randomLeft}px`);
+box.style.setProperty('--y', `${randomTop}px`);
+
         // 添加调整大小的手柄
         const handle = document.createElement('div');
         handle.className = 'resize-handle';
