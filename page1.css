@@ -21,12 +21,15 @@ body {
  
   
   /* 自由變化的樣式 - 可依照草圖微調 */
-  .block-1 {
-    margin-left: 50px;
-    font-size: 10px;
-      margin-right: 50px;
-    margin-top:70px;
-    transform: rotate(0deg);
+.block-1 {
+  margin-left: 20px;              /* 避免太大縮排 */
+  margin-right: 20px;             /* 保留一點邊界 */
+  max-width: 600px;
+  font-size: 14px;
+  line-height: 1.6;
+  word-break: break-word;         /* 🔑 可讓單字自動斷行 */
+  overflow-wrap: break-word;      /* 更保險地處理長單字 */
+
   }
   
   .block-2 {
