@@ -1,24 +1,27 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 定义每个框对应的链接和文本
     const boxes = [
-        { link: 'page1.html', textTop: '001 Introducing', textBottom: ' About the project...' },
-        { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '002', textBottom: 'the scence' },
-        { link: 'https://drive.google.com/file/d/12asnNQXuUFSS76uqq-vxx9xwkjmaIPGl/view?usp=sharing', textTop: '003', textBottom: 'video work' },
-        { link: 'https://ekuaazxnd.github.io/DISCONTINUOUS-REALITY/', textTop: '004', textBottom: 'physical show' },
-        { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '005', textBottom: ' previous work' }
+        { link: 'page1.html', textTop: '001', textBottom: ' about the work...' },
+        { link: 'https://www.github.com', textTop: '002', textBottom: '' },
+        { link: 'https://www.youtube.com', textTop: '02', textBottom: 'ccc' },
+        { link: 'https://www.facebook.com', textTop: '003', textBottom: 'ddd' },
+        { link: 'https://www.twitter.com', textTop: '004', textBottom: 'eee' }
     ];
 
-    // 
+    // 为每个可拖动的框添加功能
+    
     document.querySelectorAll('.draggable-box').forEach((box, index) => {
-        const randomWidth = Math.floor(Math.random() * 150) + 150;
+        // ✅ 隨機大小
+const randomWidth = Math.floor(Math.random() * 150) + 150;
 const randomHeight = Math.floor(Math.random() * 150) + 150;
 
-// 
+// ✅ 隨機位置（避免出界）
 const maxLeft = window.innerWidth - randomWidth;
 const maxTop = window.innerHeight - randomHeight;
 const randomLeft = Math.floor(Math.random() * maxLeft);
 const randomTop = Math.floor(Math.random() * maxTop);
 
+// ✅ 套用樣式（加在你原本的位置設置上面）
 box.style.width = `${randomWidth}px`;
 box.style.height = `${randomHeight}px`;
 box.style.left = `${randomLeft}px`;
