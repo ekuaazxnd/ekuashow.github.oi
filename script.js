@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 定义每个框对应的链接和文本
     const boxes = [
-        { link: 'page1.html', textTop: '001', textBottom: ' about the project...' },
+        { link: 'page1.html', textTop: '001 Introducing', textBottom: ' About the project...' },
         { link: 'https://ekuaazxnd.github.io/unit9.ekua/', textTop: '002', textBottom: 'the scence' },
         { link: 'https://drive.google.com/file/d/12asnNQXuUFSS76uqq-vxx9xwkjmaIPGl/view?usp=sharing', textTop: '003', textBottom: 'video work' },
         { link: 'https://ekuaazxnd.github.io/DISCONTINUOUS-REALITY/', textTop: '004', textBottom: 'physical show' },
