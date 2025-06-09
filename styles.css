@@ -5,13 +5,15 @@ body {
 }
 
 .background {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('002.png');
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('002.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
+
 
 .fixed-text-container {
     position: fixed;
