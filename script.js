@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const boxes = [
         { link: 'page1.html', textTop: '001', textBottom: ' about the work...' },
-        { link: 'https://www.github.com', textTop: '002', textBottom: '3d model scenic' },
+        { link: 'https://f01-1309918226.file.myqcloud.com/633/2025/06/12/1111/1111.html?x-cos-traffic-limit=10485760', textTop: '002', textBottom: '3d model scenic' },
         { link: 'x', textTop: '003', textBottom: ' video link' },
         { link: 'x', textTop: '004', textBottom: 'ddd' },
         { link: 'x', textTop: '005', textBottom: ' previous work' }
