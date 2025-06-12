@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { link: 'https://f01-1309918226.file.myqcloud.com/633/2025/06/12/1111/1111.html?x-cos-traffic-limit=10485760', textTop: '002', textBottom: '3d model scenic' },
         { link: 'x', textTop: '003', textBottom: ' Video link' },
         { link: 'x', textTop: '004', textBottom: 'on going...' },
-        { link: 'Update previous_works_page.html', textTop: '005', textBottom: ' Previous work' }
+        { link: 'previous_works_page.html', textTop: '005', textBottom: ' Previous work' }
     ];
 
   
