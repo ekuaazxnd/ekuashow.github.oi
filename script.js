@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     const boxes = [
-        { link: 'page1.html', textTop: '001', textBottom: ' about the work...' },
+        { link: 'page1.html', textTop: '001', textBottom: ' About the work...' },
         { link: 'https://f01-1309918226.file.myqcloud.com/633/2025/06/12/1111/1111.html?x-cos-traffic-limit=10485760', textTop: '002', textBottom: '3d model scenic' },
         { link: 'videopage.html', textTop: '003', textBottom: ' Video link' },
-        { link: 'x', textTop: '004', textBottom: 'on going...' },
+        { link: 'https://drive.google.com/file/d/12asnNQXuUFSS76uqq-vxx9xwkjmaIPGl/view?usp=sharing', textTop: '004', textBottom: 'Dissertation...' },
         { link: 'previous_works_page.html', textTop: '005', textBottom: ' Previous work' }
     ];
 
